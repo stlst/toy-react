@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "strict": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es5",
+        "jsx": "preserve",
+        "lib": [
+            "esnext",
+            "dom"
+        ]
+    }
+}
