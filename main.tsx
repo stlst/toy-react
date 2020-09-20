@@ -44,8 +44,8 @@ class Board extends Component {
 }
 
 class Game extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       history: [
         {
@@ -124,6 +124,9 @@ class Game extends Component {
 // ========================================
 
 render(<Game />, document.getElementById("root")!);
+
+// const game = <Game />;
+// console.log("game", game.vdom);
 
 function calculateWinner(squares) {
   const lines = [
